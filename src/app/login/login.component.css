@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ 
+
+ 
+/* Container Styles */
+ 
+.container {
+    
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* white background */
+    border: 1px solid #ddd;
+    /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* subtle shadow */
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
+    margin-top: 15%;
+    
+}
+ 
+/* Heading Styles */
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #337ab7;
+    /* blue color */
+    margin-bottom: 10px;
+}
+ 
+/* Input Field Styles */
+ 
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    /* light gray border */
+    border-radius: 5px;
+}
+ 
+input[type="email"]:focus {
+    border-color: #337ab7;
+    /* blue color on focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* subtle shadow on focus */
+}
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    /* light gray border */
+    border-radius: 5px;
+}
+ 
+input[type="password"]:focus {
+    border-color: #337ab7;
+    /* blue color on focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* subtle shadow on focus */
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* Button Styles */
+ 
+button[type="submit"] {
+    background-color: #4180b8;
+    /* blue color */
+    color: #fff;
+    /* white text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    color: #f5f0f0;
+}
+
+button[type="submit"]:hover {
+    background-color: #4892d2;
+    /* darker blue color on hover */
+    
+}
+ 
+/* Link Styles */
+ 
+.link {
+    color: #4e8fc5;
+    /* blue color */
+    text-decoration: none;
+}
+ 
+.link:hover {
+    color: #23527c;
+    /* darker blue color on hover */
+}

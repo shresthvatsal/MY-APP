@@ -1,0 +1,101 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+   
+    width: 95%;
+    height: 95%;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 5%;
+}
+ 
+.dashboard-heading {
+    color: #337ab7;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+}
+ 
+.create-poll-button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+}
+ 
+.poll-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+ 
+.poll-container {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 10%;
+   
+}
+ 
+.poll-heading {
+    color: #337ab7;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+ 
+.poll-description {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+ 
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 48%;
+}
+ 
+.checkbox {
+    margin-right: 10px;
+}
+ 
+.checkbox-label {
+    margin-left: 5px;
+}
+ 
+.submit-button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 100%;
+}
+ 
+.submit-button:hover {
+    background-color: #23527c;
+}
